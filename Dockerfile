@@ -2,7 +2,7 @@
 FROM openjdk:21-jdk-slim
 
 # Copy the JAR file to the container
-COPY target/server-0.0.1-SNAPSHOT.jar /app/eureka-server.jar
+COPY target/server-1.0.0.jar /app/eureka-server.jar
 
 # Define the port on which the application will run
 EXPOSE 8761
